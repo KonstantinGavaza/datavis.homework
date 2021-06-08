@@ -110,7 +110,7 @@ loadData().then(data => {
                 if (d.country === choiced_country) 
                     return 1.0
                 if (d.country !== choiced_country) 
-                    return 0.5});
+                    return 0});
 
 
         });
