@@ -108,7 +108,7 @@ loadData().then(data => {
             .attr("stroke-width", d => d.country === choiced_country ? 1.0: .0);
             scatterPlot
             .selectAll("circle")
-            .style("opacity", d => d.country === choiced_country ? 1.0: .0);
+            .style("opacity", d => d.country === choiced_country ? 1.0: .2);
 
 
         });
